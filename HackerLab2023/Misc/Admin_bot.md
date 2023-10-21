@@ -41,7 +41,7 @@ Il donc inviter le bot sur un serveur dont nous sommes l'administrateur. C'étai
     
   Ensuite, il faut s'attribuer le nouveau rôle créé dans l'onglet `Gérer les membres`
 
-2. Activation du mode développeur (Paramètres -> Paramètres de l'appli -> Avancés
+2. Activation du mode développeur (Paramètres -> Paramètres de l'appli -> Avancés)
 
   <img src="File/enable_developer_mode_admin_bot.png">
   
