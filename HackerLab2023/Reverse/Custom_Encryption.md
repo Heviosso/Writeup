@@ -4,6 +4,8 @@
 >[FR]
 >
 >Pour rendre leur communication toujours plus sécurisée, les gardiens utilisent des techniques pleines d'innovation pour chiffrer les messages. Malheureusement, ces techniques ne sont pas toujours dignes de confiance.
+>
+> 
 >[EN]
 >
 >To make their communication ever more secure, guards use innovative techniques to encrypt messages. Unfortunately these techniques are not always trustworthy.
@@ -37,7 +39,7 @@ Fonction de chiffrement du flag.
 
 # flag.txt: 00010000 10101110 01110000 10001111 11110000 01010000 10110000 10001111 01001010 01110001 00101110 11010010 10101110 10001111 00001110 11010100 01110001 10101110
 ```
-La fonction de chiffrement effectue une série d'opérations logiques et arithmétiques sur les caractères d'une chaine `text` entrée en paramètre. Pour chaque caractère, nous avons tout d'abord un `xor` de la correspondance unicode avec une clé `key1`. Ensuite  une union de valeurs issues d'opérations décalage à droite et à gauche respectivement de `key2` et de `8-key2` bits. Après avoir ajouté 42 au résultat obtenu, la nouvelle valeur unicode du caractère devient le reste de la division eucludienne de l'ancienne valeur par 42. Enfin, la fonction inverse les bits de sa représentation binaire sur 8bits convertie en chaine de caractères.
+La fonction de chiffrement effectue une série d'opérations logiques et arithmétiques sur les caractères d'une chaine `text` entrée en paramètre. Pour chaque caractère, nous avons tout d'abord un `xor` de la correspondance unicode avec une clé `key1`. Ensuite  une union de valeurs issues d'opérations de décalage à gauche et à droite respectivement de `key2` et de `8-key2` bits. Le nouveau résultat devient le modulo de la nouvelle valeur unicode du caractère ajoutée de 42. Enfin, la fonction inverse les bits de sa représentation binaire sur 1 byte convertie en chaine de caractères.
 
 ## Solution
 
