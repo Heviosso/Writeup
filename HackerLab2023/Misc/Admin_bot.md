@@ -1,4 +1,4 @@
-# Admin bot 
+# Admin bot 
 > 200 points
 >
 >[FR]
