@@ -85,7 +85,7 @@ variable `var`. Pour chacun des caractères de `param`, la fonction `randomisran
 ```
 
 ## Solution
-En analysant, on remarque que le générateur de nombre aléatoire `rand()`` n’a pas été initialisé
+En analysant, on remarque que le générateur de nombre aléatoire `rand()` n’a pas été initialisé
 donc sa valeur de retour est prévisible. En utilisant le code ci-dessous on obtient la valeur :
 **0x6b8b4567**.
 ```c
