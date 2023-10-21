@@ -35,11 +35,11 @@ Il donc inviter le bot sur un serveur dont nous sommes l'administrateur. C'étai
 
 1. Attribution du droit d'administrateur  (Paramètres du serveur -> Roles  -> Permissions par défaut -> Bouton +
 
-    Après avoir personnalisé le rôle, il faut ajouter activer le droit administrateur 
+  Après avoir personnalisé le rôle, il faut ajouter activer le droit administrateur 
     
-    <img src="File/grant_admin_rights_admin_bot.png">
+  <img src="File/grant_admin_rights_admin_bot.png">
     
-    Ensuite, il faut s'attribuer le nouveau rôle créé dans l'onglet `Gérer les membres`
+  Ensuite, il faut s'attribuer le nouveau rôle créé dans l'onglet `Gérer les membres`
 
 2. Activation du mode développeur (Paramètres -> Paramètres de l'appli -> Avancés
 
