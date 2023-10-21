@@ -28,7 +28,7 @@
 }
 ```
 
-Le programme prend lors de son exécution un argument que nous notons `arg`. Si effectivement un argument est lui est passé, il exécute une fonction `fake` en lui envoyant la  chaine `CTF_7Ru5t_SOur(e_N0t_Me` et `arg` en paramètres. En gros cette dernière compara arg à une valeur stockée en mémoire `local_38` à l'aide de la fonction `strcmp`.
+Le programme prend lors de son exécution un argument que nous notons `arg`. Si effectivement un argument est lui est passé, il exécute une fonction `fake` en lui envoyant la  chaine `CTF_7Ru5t_SOur(e_N0t_Me` et `arg` en paramètres. En gros cette dernière compare arg à une valeur stockée en mémoire `local_38` à l'aide de la fonction `strcmp`.
 Si leurs valeurs sont égales, elle nous confirme qu'il s'agit bien du flag. 
 
 ## Solution
