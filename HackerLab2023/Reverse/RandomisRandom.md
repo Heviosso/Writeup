@@ -3,7 +3,7 @@
 >
 >[FR]
 >
-J'ai appris que les gardiens des trésors royaux n'aiment pas le hasard.
+>J'ai appris que les gardiens des trésors royaux n'aiment pas le hasard.
 >[EN]
 >
 >I learned that guardians of royal treasures do not like chance.
