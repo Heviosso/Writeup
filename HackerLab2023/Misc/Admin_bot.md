@@ -28,10 +28,12 @@ En consultant son profil, une phrase a retenu notre attention :
 
 <img src="File/admin_bot_profile.png">
 
-En d'autres termes, en plus d'être un administrateur, il faut également inviter le bot. Après quelques recherches sur la toile , nous sommes tombé sur un article qui 
+En d'autres termes, en plus d'être un administrateur, il faut également inviter le bot. Après quelques recherches sur la toile , nous sommes tombés sur un article qui 
 s'inscrivait parfaitement dans notre contexte. [Voir l'artcile](https://www.goglides.com/blog/x-mas-ctf/) 
 
-Il donc inviter le bot sur un serveur dont nous sommes l'administrateur. C'était aussi simple que ça. Pour y parvenir, nous avons d'abord récupéré l'id du bot en suivant les étapes ci après:
+Il faut donc inviter le bot sur un serveur dont nous sommes l'administrateur. C'était aussi simple que ça.
+
+Pour résoudre ce challenge, il suffit de suivre les étapes ci après:
 
 1. Attribution du droit d'administrateur  (Paramètres du serveur -> Roles  -> Permissions par défaut -> Bouton +
 
@@ -60,7 +62,7 @@ Il donc inviter le bot sur un serveur dont nous sommes l'administrateur. C'étai
   <img src="File/invited_admin_bot.png">
   
 
-Une fois ces étapes effectuées, nous avons réessayé d'exécuter la commande `!password` pour obtenir notre flag. 
+Une fois ces étapes effectuées, nous avons réessayé d'exécuter la commande `!password` pour obtenir notre flag 🥳. 
 
 <img src="File/flag_admin_bot.png">
 
